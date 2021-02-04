@@ -6,7 +6,7 @@ import components, {Layout} from '../components/index';
 export default class Landing extends React.Component {
     render() {
         return (
-            <Layout {...this.props}>wwwwwzz
+            <Layout {...this.props}>wwwwwzzzz
             {_.map(_.get(this.props, 'page.frontmatter.sections', null), (section, section_idx) => {
                 let component = _.upperFirst(_.camelCase(_.get(section, 'type', null)));
                 let Component = components[component];
